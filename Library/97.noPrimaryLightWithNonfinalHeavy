@@ -1,0 +1,1 @@
+let noPrimaryLightWithNonfinalHeavy = complement (contains (psl ... xsh ... xss)) /\\ complement (contains (xsh ... psl))

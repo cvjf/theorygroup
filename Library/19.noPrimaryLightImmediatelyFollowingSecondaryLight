@@ -1,0 +1,1 @@
+let noPrimaryLightImmediatelyFollowingSecondaryLight = complement (contains (ssl <> psl))

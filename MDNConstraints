@@ -1,0 +1,12 @@
+noLightSyllableWithStress ?
+	- noStressedLightSyllableSyllable
+	- noSyllableStressedLightSyllable
+
+noUnstressedHeavyMonosyllable
+noHeavyMonosyllableWithSecondaryStress
+
+noNonfinalPrimaryStress noPrimaryStressSyllableSyllable
+
+noStressedSyllableStressedSyllable
+noUnstressedSyllableUnstressedSyllableUnstressedSyllable (3 in succession)
+noStartingUnstressedSyllableSyllableSyllable

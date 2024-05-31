@@ -1,0 +1,4 @@
+let noTwoConsecutiveUnstressedLightImmediatelyFollowingPrimaryLight = complement (contains (psl <> usl <> usl))
+let trueTestCases = ["",
+					 ]
+let falseTestCases = []

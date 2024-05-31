@@ -1,0 +1,1 @@
+let noTwoConsecutiveSecondaryLight = complement (contains (ssl <> ssl))

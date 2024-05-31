@@ -1,0 +1,12 @@
+let noTwoConsecutiveUnstressedLight = complement (contains (usl <> usl))
+let trueTestCases = [""，
+					 "L L'",
+					 "H H",
+					 "H L H L H",
+					 "H L L' H",
+					 "L L'",
+					 "L' L"]
+let falseTestCases = ["H L L H",
+					  "H L L",
+					  "L L H"]
+					  

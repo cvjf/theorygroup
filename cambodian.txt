@@ -1,0 +1,20 @@
+let noUssEnd = normalize $ complement(endsWith uss)
+noUssEnd
+let noSssEnd = normalize $ complement(endsWith sss)
+noSssEnd
+let noPssXss = normalize $ complement (contains (pss <> xss))
+noPssXss
+let noEmpty = normalize $ contains xss
+noEmpty
+let noUsH = normalize $ complement (contains ush)
+noUsH
+let noXsS = normalize $ complement (contains xsu)
+noXsS
+let noXsLXsL = normalize $ complement (contains (xsl <> xsl))
+noXsLXsL
+let noStXsL = normalize $ complement (beginsWith xsl)
+noStXsL
+let cambodian = normalize $ noUssEnd /\\ noSssEnd /\\ noPssXss /\\ noEmpty /\\ noUsH /\\ noXsLXsL /\\ noStXsL
+cambodian
+cambodian ===> (contains pss)
+cambodian ===> (complement (contains pss ... pss))

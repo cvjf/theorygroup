@@ -1,0 +1,1 @@
+let noSecondaryStressImmediatelyFollowingPrimaryStress = complement (pss <> sss)

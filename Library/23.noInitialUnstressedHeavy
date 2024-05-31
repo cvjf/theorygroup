@@ -1,0 +1,1 @@
+let noInitialUnstressedHeavy = complement (beginsWith ush)

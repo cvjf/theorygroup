@@ -1,0 +1,11 @@
+let atMostOnePrimaryStress = complement (contains (pss ... pss))
+let trueTestCases = ["", 
+					 "L` L`", 
+					 "L' L", 
+					 "L L'", 
+					 "L L' L", 
+					 "L` L L' L"]
+let falseTestCases = ["L' L'",
+					  "L' L L'",
+					  "L L' L L' L", 
+					  "L L' L` L' L"]

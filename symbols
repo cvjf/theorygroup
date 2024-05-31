@@ -1,0 +1,16 @@
+_ <> _ : concatenation
+contains _ : some _
+complement ( contains (_ <> _)) : no
+endsWith
+beginsWith
+/\\ : and
+
+<2 \sig' - complement ( contains (pss ... pss) )
+no H* .. H' - complement ( contains (xsh ... psh) )
+
+no sig* sig* L' \end
+complement ( endsWith (xss <> xss <> psl) )
+
+no \start \sig \end
+complement ( uss )
+
